@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+          {/* <img src="src/assets/Screenshot 2025-05-04 at 7.48.49 PM.png" alt='logo' className='w-9 h-9 object-contain' /> */}
+          <p className='text-white text-[23px] font-bold cursor-pointer flex '>
+            Diamond Brown  &nbsp;
+            {/* <span className='sm:block hidden'> | JavaScript Mastery</span> */}
           </p>
         </Link>
 

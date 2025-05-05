@@ -1,14 +1,22 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useEffect, useState, useRef } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./diamond_gltf/scene.gltf");
+  const diamondRef = useRef();
+  const { scene } = useGLTF("./diamond_gltf/scene.gltf");
+
+  useFrame(() => {
+    if (diamondRef.current) {
+      diamondRef.current.rotation.y += 0.005; // Adjust rotation speed as desired
+    }
+  });
 
   return (
-    <mesh>
+    <mesh ref={diamondRef}>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
@@ -20,10 +28,10 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        object={scene}
+        scale={isMobile ? 1.5 : 2.5}
+        position={isMobile ? [0, -2, -2.2] : [0, -2.25, -1.5]}
+        rotation={[-0.01, -0.2, 0]}
       />
     </mesh>
   );
@@ -55,7 +63,8 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+    // style={{ border: '1px solid red' }}
+      frameloop='always'
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
