@@ -38,23 +38,33 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      <div className='flex flex-col md:flex-row items-start gap-10'>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        <div>
+          <motion.div variants={textVariant()}>
+            {/* <p className={styles.sectionSubText}>Introduction</p> */}
+            <h2 className={styles.sectionHeadText}>About Me</h2>
+          </motion.div>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          >
+            I'm a versatile software engineer with hands-on experience in JavaScript and frameworks like React and Node.js. I bring a unique blend of creativity, empathy, and technical skill to every project. I thrive in collaborative environments and love turning real-world challenges into scalable, user-friendly solutions. Let's work together to build something meaningful!
+          </motion.p>
+        </div>
+        <div>
+          <motion.img
+            src="./src/assets/self.png"
+            alt='Diamond Brown'
+            className='w-[250px] h-[250px] rounded-2xl object-cover'
+            variants={fadeIn("right", "spring", 0.3, 1)}
+          />
+        </div>
+
+      </div>
+
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
