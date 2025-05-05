@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  java,
   html,
   css,
-  reactjs,
-  redux,
+  // reactjs,
+  // redux,
   tailwind,
   nodejs,
-  mongodb,
+  // mongodb,
   git,
   figma,
-  docker,
+  // docker,
   meta,
   starbucks,
   tesla,
@@ -70,7 +70,7 @@ const technologies = [
   },
   {
     name: "Java",
-    icon: "./src/assets/tech/java.png",
+    icon: java,
   },
   {
     name: "React Native",
@@ -190,37 +190,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Eunoia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A cross-platform web application for a clothing brand with features like cart management and checkout. Allows users to browse and purchase clothing items, providing a convenient and efficient solution for managing online shopping from both desktop and mobile devices. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "postgresSQL",
         color: "green-text-gradient",
       },
       {
@@ -228,30 +207,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "src/assets/eunoia.png",
+    source_code_link: "https://github.com/stars/dbrown499/lists/my-creations",
   },
   {
-    name: "Trip Guide",
+    name: "YumSteppers",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a mobile application that encourages New Yorkers to walk to restaurants instead of ordering delivery, rewarding them with points. Enables users to search for local restaurants, track their steps, and redeem points for exclusive meal discounts.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "jest",
         color: "pink-text-gradient",
       },
+     
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "src/assets/yumstepper.png",
+    source_code_link: "https://github.com/stars/dbrown499/lists/shared-projects",
   },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
