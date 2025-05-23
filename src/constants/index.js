@@ -31,8 +31,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Experience",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -209,6 +209,7 @@ const projects = [
     ],
     image: "src/assets/eunoia.png",
     source_code_link: "https://github.com/stars/dbrown499/lists/my-creations",
+    link: "https://eunoiaapparel.netlify.app/",
   },
   {
     name: "YumSteppers",
@@ -231,6 +232,7 @@ const projects = [
     ],
     image: "src/assets/yumstepper.png",
     source_code_link: "https://github.com/stars/dbrown499/lists/shared-projects",
+    link: "https://drive.google.com/file/d/1llDDPEy1XcT_YQ3qhBTqYvBQQgUMOY65/view",
   },
 
 ];
