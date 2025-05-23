@@ -19,7 +19,7 @@ I'm currently focused on growing my full-stack development skills with an emphas
 - **Java, JavaScript & React** (Web & React Native for mobile)
 - **Node.js & Express.js** for backend development
 - **PostgreSQL** for data-driven applications
-- **Automated testing** with Jest 
+- **Automated testing** with Jest and JUnit
 - **Responsive design** using SCSS & media queries
 
 Projects like *Yumsteppers* and *Eunoia* have challenged me to think deeply about user experience, performance, and purpose. I build apps that don't just work—but **matter**.
@@ -28,7 +28,9 @@ Projects like *Yumsteppers* and *Eunoia* have challenged me to think deeply abou
 
 ### 🚀 Where I’m Headed
 
-I’m working toward becoming a **senior software engineer** who specializes in building accessible, reliable, and human-centered applications. My long-term goals include:
+I’m working toward becoming a **senior software engineer**, with a strong focus on **backend development**, where I can build accessible, reliable, and human-centered applications. I'm especially passionate about creating clean, scalable APIs and systems that power meaningful user experiences behind the scenes.
+
+My long-term goals include:
 
 - 🌱 Leading or contributing to **mission-driven startups**
 - 🤝 Building software that aligns with **faith, wellness, and community**
@@ -63,5 +65,5 @@ Tools: Git, GitHub, VS Code, Postman
 Whether you're a recruiter, fellow developer, or someone who just loves a good build story, I’d love to connect:
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/diamond-brown-8305642a1/)
-- 💌 Reach out via [GitHub](https://github.com/dbrown499) or email to collaborate, connect, or chat code & calling.
+- 💌 Reach out via [GitHub](https://github.com/dbrown499) or [Email](mailto:Browndiamond479@gmail.com) to collaborate, connect, or chat code & calling.
 
