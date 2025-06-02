@@ -14,6 +14,8 @@ import {
   git,
   figma,
   threejs,
+  eunoia,
+  yumstepper
 } from "../assets";
 
 export const navLinks = [
@@ -117,7 +119,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/eunoia.png",
+    image: eunoia,
     source_code_link: "https://github.com/stars/dbrown499/lists/my-creations",
     link: "https://eunoiaapparel.netlify.app/",
   },
@@ -140,7 +142,7 @@ const projects = [
       },
      
     ],
-    image: "src/assets/yumstepper.png",
+    image: yumstepper,
     source_code_link: "https://github.com/stars/dbrown499/lists/shared-projects",
     link: "https://drive.google.com/file/d/1llDDPEy1XcT_YQ3qhBTqYvBQQgUMOY65/view",
   },

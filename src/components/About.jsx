@@ -1,7 +1,6 @@
-import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-
+import selfPhoto from "../assets/self.png";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -42,7 +41,6 @@ const About = () => {
 
         <div>
           <motion.div variants={textVariant()}>
-            {/* <p className={styles.sectionSubText}>Introduction</p> */}
             <h2 className={styles.sectionHeadText}>About Me</h2>
           </motion.div>
 
@@ -55,7 +53,7 @@ const About = () => {
         </div>
         <div>
           <motion.img
-            src="./src/assets/self.png"
+            src={selfPhoto}
             alt='Diamond Brown'
             className='w-[250px] h-[250px] rounded-2xl object-cover'
             variants={fadeIn("right", "spring", 0.3, 1)}

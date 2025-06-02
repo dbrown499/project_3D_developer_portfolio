@@ -17,6 +17,8 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import postgresql from "./tech/postgresql.png";
+import eunoia from "./eunoia.png";
+import yumstepper from "./yumstepper.png";
 
 
 
@@ -40,5 +42,7 @@ export {
   tailwind,
   threejs,
   python,
-  postgresql
+  postgresql,
+  eunoia,
+  yumstepper
 };
