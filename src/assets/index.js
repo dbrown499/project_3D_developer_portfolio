@@ -5,7 +5,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import java from "./tech/java.png";
 import figma from "./tech/figma.png";
@@ -16,6 +15,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import postgresql from "./tech/postgresql.png";
+
+
 
 
 export {
@@ -36,5 +39,6 @@ export {
   reactjs,
   tailwind,
   threejs,
-  
+  python,
+  postgresql
 };
