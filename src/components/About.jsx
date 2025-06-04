@@ -1,6 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import selfPhoto from "../assets/self.png";
+import selfPhoto from "../assets/selfportrait.png";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
