@@ -48,6 +48,7 @@ const Contact = () => {
     )
     .then(
         () => {
+          alert("Sorry, this may take a few minutes to submit... Please do not reload page.");
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
 
