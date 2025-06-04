@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  python,
+  spring,
   web,
   javascript,
   java,
@@ -70,8 +70,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Python",
-    icon: python,
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "Tailwind CSS",

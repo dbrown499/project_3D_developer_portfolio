@@ -15,7 +15,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import python from "./tech/python.png";
+import spring from "./tech/spring.png";
 import postgresql from "./tech/postgresql.png";
 import eunoia from "./eunoia.png";
 import yumstepper from "./yumstepper.png";
@@ -41,7 +41,7 @@ export {
   reactjs,
   tailwind,
   threejs,
-  python,
+  spring,
   postgresql,
   eunoia,
   yumstepper
